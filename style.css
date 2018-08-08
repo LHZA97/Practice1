@@ -1,0 +1,33 @@
+body{
+	background-color: #C0C0C0;
+	color: #fff;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	color: #fff;
+	background-color: #464646;
+}
+
+.box-1{
+	border: 3px dotted #ccc;
+	padding:10px;
+	margin-top: 20px; 
+	margin-left: 10px;
+	text-align: center;
+
+}
+
+figure{
+	padding: 20px;
+}
+
+#mainFooter{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	font-family: 
+	padding: 20px;
+	margin-top: 300px;
+}
+
