@@ -32,7 +32,7 @@ figure{
 }
 
 .card{
-	color: #464646;
+	color:#000000;
 	background-color: #91492C;
 	font-family: Marker Felt;
 	padding:10px;
@@ -50,10 +50,15 @@ figure{
 	padding: 10px;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-{
+a{
     color: #fff;
-    background-color: #fff;
+    text-decoration: none;
+    background-color: #464646;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #91492C;
 }
 
 #mainFooter{
