@@ -5,12 +5,19 @@ body{
 .container{
 	width: 80%;
 	margin: auto;
+	font-family: arial;
 	color: #fff;
 	background-color: #464646;
 }
 
+.navItem{
+	color: #fff;
+	background: #464646;
+}
+
 .box-1{
 	border: 3px dotted #ccc;
+	background-color: #91492C;
 	padding:10px;
 	margin-top: 20px; 
 	margin-left: 10px;
@@ -20,14 +27,40 @@ body{
 
 figure{
 	padding: 20px;
+	margin-top: 50px;
+
+}
+
+.card{
+	color: #464646;
+	background-color: #91492C;
+	font-family: Marker Felt;
+	padding:10px;
+	margin-top: 20px; 
+	margin-left: 10px;
+	text-align: center;
+}
+
+.cardHeader{
+	color: #000000;
+	font-size: 200%;
+	background-color: #91492C;
+	font-family: blippo;
+	text-align: center;
+	padding: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+{
+    color: #fff;
+    background-color: #fff;
 }
 
 #mainFooter{
 	background: #333;
 	color: #fff;
 	text-align: center;
-	font-family: 
-	padding: 20px;
+	font-family: arial;
 	margin-top: 300px;
 }
 
