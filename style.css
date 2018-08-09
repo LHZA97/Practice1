@@ -5,8 +5,9 @@ body{
 .container{
 	width: 80%;
 	margin: auto;
-	font-family: arial;
-	color: #fff;
+	font-family: Gill Sans;
+	font-size: 120%;
+	color: #C0C0C0;
 	background-color: #464646;
 }
 
@@ -16,6 +17,7 @@ body{
 }
 
 .box-1{
+	font-size: 90%;
 	border: 3px dotted #ccc;
 	background-color: #91492C;
 	padding:10px;
@@ -32,7 +34,7 @@ figure{
 }
 
 .card{
-	color:#000000;
+	color:#C0C0C0;
 	background-color: #91492C;
 	font-family: Marker Felt;
 	padding:10px;
@@ -42,12 +44,16 @@ figure{
 }
 
 .cardHeader{
-	color: #000000;
+	color: #C0C0C0;
 	font-size: 200%;
 	background-color: #91492C;
-	font-family: blippo;
+	font-family: Gill Sans;
 	text-align: center;
 	padding: 10px;
+}
+
+.blockquote-footer{
+	color: #262626;
 }
 
 a{
@@ -57,15 +63,50 @@ a{
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    font-family: Gill Sans;
+    font-size: 120%;
     color: #fff;
     background-color: #91492C;
+}
+
+.btn-secondary {
+    color: #f8f9fa;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-family: Gill Sans;
+
+}
+
+
+a.button {
+  display:block;
+  width:100px;
+  height:50px;
+  background-color:#424242;
+  color:#fff;
+  line-height:50px;
+  text-decoration: none;
+  margin: 1px;
+}
+
+
+.menuBtn {
+  margin-top:30px;
+}
+
+div[class*="menuBtn-"] { 
+  display:none;
+}
+
+div.active { 
+  display:block;
 }
 
 #mainFooter{
 	background: #333;
 	color: #fff;
 	text-align: center;
-	font-family: arial;
-	margin-top: 300px;
+	font-family: Gill Sans;
+	margin-top: 200px;
 }
 
